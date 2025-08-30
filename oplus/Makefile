@@ -8,6 +8,10 @@ OPLUS_PINEAPPLE_BOARDS += waffle-22825-pineapple-overlay.dtbo\
                           waffle-22877-pineapple-overlay.dtbo\
                           waffle-22877-pineapple-overlay-EVB.dtbo\
                           waffle-22877-pineapple-overlay-EVT1.dtbo
+else ifeq ($(CONFIG_LEXUS_DTB),y)
+OPLUS_PINEAPPLE_BOARDS += lexus-24881-cliffs-overlay.dtbo\
+                          lexus-24882-cliffs-overlay.dtbo\
+                          lexus-24882-EU-cliffs-overlay.dtbo
 else ifeq ($(CONFIG_CORVETTE_DTB),y)
 OPLUS_PINEAPPLE_BOARDS += \
                           corvette-23814-pineapple-overlay.dtbo
